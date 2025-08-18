@@ -9,8 +9,10 @@ public class Main {
 
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        int result = ExtractOnlyNumbers.extractOnlyNumbers(in);
-        System.out.println(result);
+        int[] result = ShortestCharacterDistance.shortestCharacterDistance(in);
+        for (int i : result) {
+            System.out.print(i + " ");
+        }
     }
 
 }

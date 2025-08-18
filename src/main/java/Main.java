@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        String result = Palindrome.palindrome(in);
+        int result = ExtractOnlyNumbers.extractOnlyNumbers(in);
         System.out.println(result);
     }
 

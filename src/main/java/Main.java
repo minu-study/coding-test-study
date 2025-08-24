@@ -9,10 +9,8 @@ public class Main {
 
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        int[] result = ShortestCharacterDistance.shortestCharacterDistance(in);
-        for (int i : result) {
-            System.out.print(i + " ");
-        }
+        String result = StringCompression.stringCompression(in);
+        System.out.print(result);
     }
 
 }
